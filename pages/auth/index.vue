@@ -36,8 +36,8 @@ definePageMeta({
     layout: "auth",
 });
 const form = ref({
-    email: 'samirraihan93@gmail.com',
-    password: 'A64616461a+',
+    email: '',
+    password: '',
 });
 
 async function handleSignin() {
