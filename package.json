@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "nuxt": "^3.7.1"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.6"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
